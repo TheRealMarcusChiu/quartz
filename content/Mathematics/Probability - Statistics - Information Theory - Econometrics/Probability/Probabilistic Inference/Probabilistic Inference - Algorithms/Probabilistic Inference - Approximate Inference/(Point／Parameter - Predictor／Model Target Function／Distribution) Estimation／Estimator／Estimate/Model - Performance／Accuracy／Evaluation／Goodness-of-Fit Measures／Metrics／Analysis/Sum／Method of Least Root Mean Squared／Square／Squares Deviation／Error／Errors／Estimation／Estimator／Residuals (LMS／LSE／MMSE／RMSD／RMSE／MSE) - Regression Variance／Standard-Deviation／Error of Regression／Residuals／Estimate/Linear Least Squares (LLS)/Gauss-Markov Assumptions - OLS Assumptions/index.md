@@ -54,7 +54,7 @@ is set of conditions when are upheld, then the [[Ordinary Least Squares (OLS)]]
         "header": true,
         "bg": "#F4F5F7"
       },
-      "- zero conditional mean of [[Method of Least Mean Squared／Squares Error／Estimation／Estimator (LMS／LSE／MMSE) - Sum of Square Errors／Residuals - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate - Root Mean Square Deviation／Error (RMSD／E - MSE)|errors 𝑒𝑖s]] for all inputs of regressors {𝑥<sub>1</sub>, ..., 𝑥<sub>𝑘</sub>} (i.e. expected error is zero given 𝒙)\n\t- 𝐄\\[𝑒<sub>𝑖</sub>|𝒙<sub>𝑖</sub>\\] = 0 <font style=\"color: rgb(128,128,128);\">\\# regression function is</font> [[Estimator - Inductive Properties (Biasedness／Unbiasedness - Consistency／Consistent - Statistic Efficiency)|unbiased]] <font style=\"color: rgb(128,128,128);\">otherwise</font> [[Estimator - Inductive Properties (Biasedness／Unbiasedness - Consistency／Consistent - Statistic Efficiency)|bias]]"
+      "- zero conditional mean of [[Sum／Method of Least Root Mean Squared／Square／Squares Deviation／Error／Errors／Estimation／Estimator／Residuals (LMS／LSE／MMSE／RMSD／RMSE／MSE) - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate|errors 𝑒𝑖s]] for all inputs of regressors {𝑥<sub>1</sub>, ..., 𝑥<sub>𝑘</sub>} (i.e. expected error is zero given 𝒙)\n\t- 𝐄\\[𝑒<sub>𝑖</sub>|𝒙<sub>𝑖</sub>\\] = 0 <font style=\"color: rgb(128,128,128);\">\\# regression function is</font> [[Estimator - Inductive Properties (Biasedness／Unbiasedness - Consistency／Consistent - Statistic Efficiency)|unbiased]] <font style=\"color: rgb(128,128,128);\">otherwise</font> [[Estimator - Inductive Properties (Biasedness／Unbiasedness - Consistency／Consistent - Statistic Efficiency)|bias]]"
     ],
     [
       {

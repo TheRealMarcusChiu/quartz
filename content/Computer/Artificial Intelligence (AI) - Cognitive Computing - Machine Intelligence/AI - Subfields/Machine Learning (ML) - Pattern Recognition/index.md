@@ -108,7 +108,7 @@ Let's decompose [[Ordinary Least Squares (OLS) Regression|Linear Regression]](i.
         "content": "Performance Measure (𝑃)",
         "bg": "#F4F5F7"
       },
-      "[[Method of Least Mean Squared／Squares Error／Estimation／Estimator (LMS／LSE／MMSE) - Sum of Square Errors／Residuals - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate - Root Mean Square Deviation／Error (RMSD／E - MSE)|Mean Square Error (MSE)]] over the [[ML - Training／Validation／Test Data／Set - Training／Validation／Test Error|test set]]"
+      "[[Sum／Method of Least Root Mean Squared／Square／Squares Deviation／Error／Errors／Estimation／Estimator／Residuals (LMS／LSE／MMSE／RMSD／RMSE／MSE) - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate|Mean Square Error (MSE)]] over the [[ML - Training／Validation／Test Data／Set - Training／Validation／Test Error|test set]]"
     ]
   ]
 }

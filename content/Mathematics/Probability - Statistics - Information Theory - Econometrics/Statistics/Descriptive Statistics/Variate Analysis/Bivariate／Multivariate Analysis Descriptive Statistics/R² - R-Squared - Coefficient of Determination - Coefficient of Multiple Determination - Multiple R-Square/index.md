@@ -15,7 +15,7 @@ children: []
 - for penalizing the addition of USELESS regressors see: [[Adjusted R²／R-Square (Adjusted Coefficient of Determination)|Adjusted R-Square]]
 
 formula:
-- 𝑅<sup>2</sup> = <font style="color: rgb(0,128,0);">(</font><font style="color: rgb(51,102,255);">variance-about-the-mean</font><font style="color: rgb(0,128,0);"> - [[Method of Least Mean Squared／Squares Error／Estimation／Estimator (LMS／LSE／MMSE) - Sum of Square Errors／Residuals - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate - Root Mean Square Deviation／Error (RMSD／E - MSE)|Mean Square Error (MSE)]]</font><font style="color: rgb(0,128,0);">)</font> / <font style="color: rgb(51,102,255);">variance-about-the-mean</font>
+- 𝑅<sup>2</sup> = <font style="color: rgb(0,128,0);">(</font><font style="color: rgb(51,102,255);">variance-about-the-mean</font><font style="color: rgb(0,128,0);"> - [[Sum／Method of Least Root Mean Squared／Square／Squares Deviation／Error／Errors／Estimation／Estimator／Residuals (LMS／LSE／MMSE／RMSD／RMSE／MSE) - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate|Mean Square Error (MSE)]]</font><font style="color: rgb(0,128,0);">)</font> / <font style="color: rgb(51,102,255);">variance-about-the-mean</font>
 - 𝑅<sup>2</sup> = <font style="color: rgb(0,128,0);">(</font><font style="color: rgb(51,102,255);">variance-about-the-mean</font><font style="color: rgb(0,128,0);"> - </font><font style="color: rgb(128,0,0);">variance-about-the-regression-line</font><font style="color: rgb(0,128,0);">)</font> / <font style="color: rgb(51,102,255);">variance-about-the-mean</font>
 - 𝑅<sup>2</sup> = <font style="color: rgb(0,128,0);">(</font><font style="color: rgb(51,102,255);">variance-about-the-mean</font><font style="color: rgb(0,128,0);"> - </font><font style="color: rgb(128,0,0);">variance-of-errors-not-explained-by-model</font><font style="color: rgb(0,128,0);">)</font> / <font style="color: rgb(51,102,255);">variance-about-the-mean</font>
 - 𝑅<sup>2</sup> = <font style="color: rgb(0,128,0);">variance-explained-by-model</font> / <font style="color: rgb(51,102,255);">variance-about-the-mean</font>
@@ -35,7 +35,7 @@ visual of <font style="color: rgb(51,102,255);">variance-about-the-mean</font> v
 
 ###### R<sup>2</sup>- Properties
 - 𝑅<sup>2</sup>ranges between \[0,1\]. This means the <font style="color: rgb(128,0,0);">variation of a model</font> is always less than or equal to <font style="color: rgb(51,102,255);">variation of mean</font>
-- high 𝑅<sup>2</sup> (and hence |𝑟|) → points are tightly clustered around the regression model → predicted 𝑦̂'s are close to observed 𝑦's → [[Method of Least Mean Squared／Squares Error／Estimation／Estimator (LMS／LSE／MMSE) - Sum of Square Errors／Residuals - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate - Root Mean Square Deviation／Error (RMSD／E - MSE)|residuals/errors]] are small → fit is good
+- high 𝑅<sup>2</sup> (and hence |𝑟|) → points are tightly clustered around the regression model → predicted 𝑦̂'s are close to observed 𝑦's → [[Sum／Method of Least Root Mean Squared／Square／Squares Deviation／Error／Errors／Estimation／Estimator／Residuals (LMS／LSE／MMSE／RMSD／RMSE／MSE) - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate|residuals/errors]] are small → fit is good
 
 ###### R<sup>2</sup> - Example
 ![[R² - R-Squared - Coefficient of Determination - Coefficient of Multiple Determination - Multiple R-Square/r-squared-visual-example.png|400]]

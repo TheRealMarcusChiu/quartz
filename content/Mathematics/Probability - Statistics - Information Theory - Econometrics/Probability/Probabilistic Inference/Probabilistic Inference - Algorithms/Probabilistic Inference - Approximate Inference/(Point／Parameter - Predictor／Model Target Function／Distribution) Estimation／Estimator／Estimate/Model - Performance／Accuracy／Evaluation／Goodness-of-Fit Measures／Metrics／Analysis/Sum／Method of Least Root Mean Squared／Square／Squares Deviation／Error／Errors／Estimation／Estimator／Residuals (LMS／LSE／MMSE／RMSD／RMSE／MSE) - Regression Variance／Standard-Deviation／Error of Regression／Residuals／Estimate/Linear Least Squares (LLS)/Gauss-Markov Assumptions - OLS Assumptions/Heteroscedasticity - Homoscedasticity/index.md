@@ -15,7 +15,7 @@ the estimator/model ℎ(𝑥<sub>1</sub>, ..., 𝑥<sub>𝑘</sub>) is either:
 - <strong>heteroscedastic</strong> when 𝑉𝑎𝑟(<font style="color: rgb(51,102,255);">𝑒𝑟𝑟𝑜𝑟</font>|𝑥<sub>1</sub>, ..., 𝑥<sub>𝑘</sub>) = some function 𝑓(𝑥<sub>1</sub>, ..., 𝑥<sub>𝑘</sub>) dependent on inputs {𝑥<sub>1</sub>, ..., 𝑥<sub>𝑘</sub>}
 
 where:
-- [[Method of Least Mean Squared／Squares Error／Estimation／Estimator (LMS／LSE／MMSE) - Sum of Square Errors／Residuals - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate - Root Mean Square Deviation／Error (RMSD／E - MSE)|𝑒𝑟𝑟𝑜𝑟 = distance between 𝑦̂ and 𝑦]]
+- [[Sum／Method of Least Root Mean Squared／Square／Squares Deviation／Error／Errors／Estimation／Estimator／Residuals (LMS／LSE／MMSE／RMSD／RMSE／MSE) - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate|𝑒𝑟𝑟𝑜𝑟 = distance between 𝑦̂ and 𝑦]]
 
 ### Residual Plot Examples (see [[Residual Plot - Partial Residual Plot|residual plots]])
 ![[Heteroscedasticity - Homoscedasticity/homoscedasticity-heteroscedasticity.png|700]]

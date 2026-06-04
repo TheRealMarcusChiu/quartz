@@ -1,7 +1,7 @@
 ---
-title: "Method of Least Mean Squared／Squares Error／Estimation／Estimator (LMS／LSE／MMSE) - Sum of Square Errors／Residuals - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate - Root Mean Square Deviation／Error (RMSD／E - MSE)"
+title: "Sum／Method of Least Root Mean Squared／Square／Squares Deviation／Error／Errors／Estimation／Estimator／Residuals (LMS／LSE／MMSE／RMSD／RMSE／MSE) - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate"
 created: 2021-09-13T05:27:43.868-05:00
-modified: 2026-05-14T14:04:18.838-05:00
+modified: 2026-06-04T14:37:16.120-05:00
 parent: "[[Model - Performance／Accuracy／Evaluation／Goodness-of-Fit Measures／Metrics／Analysis]]"
 children:
   - "[[Linear Least Squares (LLS)]]"

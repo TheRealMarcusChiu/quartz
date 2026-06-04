@@ -16,7 +16,7 @@ in the case of<strong> [[Endogenous／Endogenic Variable - Exogenous／Exogenic
         "bg": "#F4F5F7"
       },
       {
-        "content": "[[Method of Least Mean Squared／Squares Error／Estimation／Estimator (LMS／LSE／MMSE) - Sum of Square Errors／Residuals - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate - Root Mean Square Deviation／Error (RMSD／E - MSE)|LS Estimator]]",
+        "content": "[[Sum／Method of Least Root Mean Squared／Square／Squares Deviation／Error／Errors／Estimation／Estimator／Residuals (LMS／LSE／MMSE／RMSD／RMSE／MSE) - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate|LS Estimator]]",
         "header": true,
         "bg": "#F4F5F7"
       },
@@ -75,7 +75,7 @@ in the case of<strong> [[Endogenous／Endogenic Variable - Exogenous／Exogenic
         "bg": "#F4F5F7"
       },
       {
-        "content": "[[Method of Least Mean Squared／Squares Error／Estimation／Estimator (LMS／LSE／MMSE) - Sum of Square Errors／Residuals - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate - Root Mean Square Deviation／Error (RMSD／E - MSE)|LS Estimator]]",
+        "content": "[[Sum／Method of Least Root Mean Squared／Square／Squares Deviation／Error／Errors／Estimation／Estimator／Residuals (LMS／LSE／MMSE／RMSD／RMSE／MSE) - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate|LS Estimator]]",
         "header": true,
         "bg": "#F4F5F7"
       },

@@ -5,7 +5,7 @@ modified: 2023-08-31T15:28:53.151-05:00
 parent: "[[Data Visualization - Types]]"
 children: []
 ---
-- <strong>Residual Plot</strong> is a graph that shows the [[Method of Least Mean Squared／Squares Error／Estimation／Estimator (LMS／LSE／MMSE) - Sum of Square Errors／Residuals - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate - Root Mean Square Deviation／Error (RMSD／E - MSE)|residuals]] on the vertical axis and the [[Ordinary Least Squares (OLS) Regression|independent-variable/regressor]] on the horizontal axis
+- <strong>Residual Plot</strong> is a graph that shows the [[Sum／Method of Least Root Mean Squared／Square／Squares Deviation／Error／Errors／Estimation／Estimator／Residuals (LMS／LSE／MMSE／RMSD／RMSE／MSE) - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate|residuals]] on the vertical axis and the [[Ordinary Least Squares (OLS) Regression|independent-variable/regressor]] on the horizontal axis
 - <strong>Partial Residual Plot</strong> is a graphical technique that attempts to show the relationship between a given independent variable and the response variable given that other independent variables are also in the model
 
 # How It's Constructed

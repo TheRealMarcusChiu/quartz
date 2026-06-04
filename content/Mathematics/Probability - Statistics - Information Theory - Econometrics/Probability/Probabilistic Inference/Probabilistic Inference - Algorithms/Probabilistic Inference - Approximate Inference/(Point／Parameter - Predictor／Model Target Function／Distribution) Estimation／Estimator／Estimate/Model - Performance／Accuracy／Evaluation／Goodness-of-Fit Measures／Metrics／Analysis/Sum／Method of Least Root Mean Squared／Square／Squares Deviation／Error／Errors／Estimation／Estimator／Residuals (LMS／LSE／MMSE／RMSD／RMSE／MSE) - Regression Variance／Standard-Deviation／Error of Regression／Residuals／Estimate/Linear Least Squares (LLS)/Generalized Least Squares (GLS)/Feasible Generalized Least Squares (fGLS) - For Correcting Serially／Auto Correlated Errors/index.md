@@ -26,7 +26,7 @@ assume we have:
 The [[Autocorrelation - Autocovariance - Auto／Serial Correlation／Covariance Function|serially correlated]] errors property causes the [[Ordinary Least Squares (OLS)|OLS]] estimator to no longer be Best and hence no longer [[LLS - Comparisons (OLS vs WLS vs GLS) - Best Linear Unbiased Estimator (BLUE) - Minimum-Variance Unbiased Estimator (MVUE)|BLUE]]
 
 To estimate the coefficient 𝛿<sub>0</sub> we do the following steps:
-1. get a sequence of [[Method of Least Mean Squared／Squares Error／Estimation／Estimator (LMS／LSE／MMSE) - Sum of Square Errors／Residuals - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate - Root Mean Square Deviation／Error (RMSD／E - MSE)|residuals/errors]] <font style="color: rgb(255,0,0);">𝑒<sub>𝑡</sub></font> by running the given regression model over the training examples:
+1. get a sequence of [[Sum／Method of Least Root Mean Squared／Square／Squares Deviation／Error／Errors／Estimation／Estimator／Residuals (LMS／LSE／MMSE／RMSD／RMSE／MSE) - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate|residuals/errors]] <font style="color: rgb(255,0,0);">𝑒<sub>𝑡</sub></font> by running the given regression model over the training examples:
 	1. 𝑦<sub>𝑡</sub> = 𝜃<sub>0</sub>ˆ + 𝜃<sub>1</sub>ˆ𝑥<sub>𝑡</sub> + <font style="color: rgb(255,0,0);">𝑒<sub>𝑡</sub></font>
 2. then use the residuals {𝑒<sub>0</sub>, 𝑒<sub>1</sub>, ..., 𝑒<sub>𝑇</sub>} and run a regression over the random process model:
 	1. 𝑒<sub>𝑡</sub> = 𝛿<sub>0</sub>𝑒<sub>𝑡-1</sub> + 𝜀<sub>𝑡</sub>

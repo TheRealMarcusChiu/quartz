@@ -1,7 +1,7 @@
 ---
 title: "Probabilistic Inference - Algorithms"
 created: 2021-09-13T05:27:39.725-05:00
-modified: 2021-12-11T05:26:37.654-06:00
+modified: 2026-06-04T13:56:12.730-05:00
 parent: "[[Probabilistic Inference]]"
 children:
   - "[[Probabilistic Inference - Approximate Inference]]"

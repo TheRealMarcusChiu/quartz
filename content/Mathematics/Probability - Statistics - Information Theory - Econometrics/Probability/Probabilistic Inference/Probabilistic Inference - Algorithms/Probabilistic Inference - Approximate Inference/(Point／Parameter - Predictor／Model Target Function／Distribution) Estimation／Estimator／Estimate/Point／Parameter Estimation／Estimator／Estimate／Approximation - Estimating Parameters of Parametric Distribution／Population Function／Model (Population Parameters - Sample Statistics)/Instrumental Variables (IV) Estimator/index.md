@@ -7,7 +7,7 @@ children:
   - "[[IV Estimator - Inference]]"
 ---
 ###### Instrumental Variables (IV) Estimator
-- deals with the problem of [[Endogenous／Endogenic Variable - Exogenous／Exogenic Variable - Endogenous vs Exogeneity|endogeneity]]/[[Correlation - Correlation Coefficient|correlation]] between a [[Regression Models／Analysis (Regressor／Predictor／Independent／Input／Feature-Function - Response／Dependent／Output／Outcome) Variable|regressor]] and another regressor or [[Method of Least Mean Squared／Squares Error／Estimation／Estimator (LMS／LSE／MMSE) - Sum of Square Errors／Residuals - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate - Root Mean Square Deviation／Error (RMSD／E - MSE)|error]] (which breaks one of the [[Gauss-Markov Assumptions - OLS Assumptions|Gauss-Markov/OLS Assumptions]])
+- deals with the problem of [[Endogenous／Endogenic Variable - Exogenous／Exogenic Variable - Endogenous vs Exogeneity|endogeneity]]/[[Correlation - Correlation Coefficient|correlation]] between a [[Regression Models／Analysis (Regressor／Predictor／Independent／Input／Feature-Function - Response／Dependent／Output／Outcome) Variable|regressor]] and another regressor or [[Sum／Method of Least Root Mean Squared／Square／Squares Deviation／Error／Errors／Estimation／Estimator／Residuals (LMS／LSE／MMSE／RMSD／RMSE／MSE) - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate|error]] (which breaks one of the [[Gauss-Markov Assumptions - OLS Assumptions|Gauss-Markov/OLS Assumptions]])
 - can be interpreted as a [[Two-Stage Least Squares (2SLS)|Two-Stage Least Squares (2SLS) Estimator]]
 - is a [[Estimator & Predictor／Model (Bias - Variance - Irreducible／Bayes／Noise) Error - Predictor／Model Capacity／Complexity - Generalization (Underfit - Goodfit - Overfit)|biased estimator]]
 - is a [[Estimator - Inductive Properties (Biasedness／Unbiasedness - Consistency／Consistent - Statistic Efficiency)|consistent estimator]] as long as the instrument variable is good
@@ -29,13 +29,13 @@ assume we have:
 - [[Endogenous／Endogenic Variable - Exogenous／Exogenic Variable - Endogenous vs Exogeneity|endogeneity]]/[[Correlation - Correlation Coefficient|correlation]] between 𝑒<sub>𝑖</sub> and 𝑥<sub>𝑖</sub> exists:
 	- 𝐶𝑜𝑟(𝑒<sub>𝑖</sub>,𝑥<sub>𝑖</sub>) ≠ 0
 
-the [[Method of Least Mean Squared／Squares Error／Estimation／Estimator (LMS／LSE／MMSE) - Sum of Square Errors／Residuals - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate - Root Mean Square Deviation／Error (RMSD／E - MSE)|least squares estimate]] 𝜃<sub>1</sub>ˆ of true [[Statistics - Terminology|population parameter]] 𝜃<sub>1</sub> is defined as:
+the [[Sum／Method of Least Root Mean Squared／Square／Squares Deviation／Error／Errors／Estimation／Estimator／Residuals (LMS／LSE／MMSE／RMSD／RMSE／MSE) - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate|least squares estimate]] 𝜃<sub>1</sub>ˆ of true [[Statistics - Terminology|population parameter]] 𝜃<sub>1</sub> is defined as:
 - 𝜃<sub>1</sub>ˆ<sub></sub>= 𝛥𝑦/𝛥𝑥
 - 𝜃<sub>1</sub>ˆ<sub></sub>= (𝛥𝑦<sub>𝑥</sub> + 𝛥𝑦<sub>𝑒</sub>)/𝛥𝑥 <font style="color: rgb(128,128,128);">\# because of endogeneity</font>
 - 𝜃<sub>1</sub>ˆ<sub></sub>= (𝛥𝑦<sub>𝑥</sub>/𝛥𝑥) + (𝛥𝑦<sub>𝑒</sub>/𝛥𝑥)
 - 𝜃<sub>1</sub>ˆ<sub></sub>= 𝜃<sub>1</sub> + (𝛥𝑦<sub>𝑒</sub>/𝛥𝑥) <font style="color: rgb(128,128,128);">\# population parameter 𝜃<sub>1</sub>= (𝛥𝑦<sub>𝑥</sub>/𝛥𝑥) by definition</font>
 
-PROBLEM: therefore, the [[Method of Least Mean Squared／Squares Error／Estimation／Estimator (LMS／LSE／MMSE) - Sum of Square Errors／Residuals - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate - Root Mean Square Deviation／Error (RMSD／E - MSE)|least squares estimate]] 𝜃<sub>1</sub>ˆ is a BIASED estimate of the true population parameter 𝜃<sub>1</sub>because of endogeneity
+PROBLEM: therefore, the [[Sum／Method of Least Root Mean Squared／Square／Squares Deviation／Error／Errors／Estimation／Estimator／Residuals (LMS／LSE／MMSE／RMSD／RMSE／MSE) - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate|least squares estimate]] 𝜃<sub>1</sub>ˆ is a BIASED estimate of the true population parameter 𝜃<sub>1</sub>because of endogeneity
 
 SOLUTION: introduce a third variable (instrumental variable) 𝑧<sub>𝑖</sub> such that:
 - 𝐶𝑜𝑣(𝑧<sub>𝑖</sub>,𝑥<sub>𝑖</sub>) ≠ 0

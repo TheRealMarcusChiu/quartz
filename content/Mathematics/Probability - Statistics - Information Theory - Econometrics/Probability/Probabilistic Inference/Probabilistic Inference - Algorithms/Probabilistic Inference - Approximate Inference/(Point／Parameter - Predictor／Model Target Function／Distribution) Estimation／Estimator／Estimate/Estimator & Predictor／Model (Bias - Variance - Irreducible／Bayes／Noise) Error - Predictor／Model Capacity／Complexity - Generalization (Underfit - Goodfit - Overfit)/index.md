@@ -69,7 +69,7 @@ children:
 derivation of the bias-variance decomposition for the two most common contexts:
 - <strong>MSE for Estimator (Point Estimation)</strong>
 > [!expand]- Click here to expand...
-> Bias-Variance Decomposition for Estimators simply unites two of our favorite properties in one formula [[Method of Least Mean Squared／Squares Error／Estimation／Estimator (LMS／LSE／MMSE) - Sum of Square Errors／Residuals - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate - Root Mean Square Deviation／Error (RMSD／E - MSE)|Mean Square Error 𝑀𝑆𝐸]]:
+> Bias-Variance Decomposition for Estimators simply unites two of our favorite properties in one formula [[Sum／Method of Least Root Mean Squared／Square／Squares Deviation／Error／Errors／Estimation／Estimator／Residuals (LMS／LSE／MMSE／RMSD／RMSE／MSE) - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate|Mean Square Error 𝑀𝑆𝐸]]:
 > - 𝑀𝑆𝐸 measures the overall expected deviation (in a squared error sense) between the estimator 𝜃ˆ and the true value of the parameter 𝜃
 > 	- 𝑀𝑆𝐸 = 𝐄\[(𝜃ˆ - 𝜃)²\]
 > - 𝑀𝑆𝐸 incorporates both: bias & variance

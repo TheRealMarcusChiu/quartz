@@ -71,7 +71,7 @@ This table is a modification of [[One-Way ANOVA]] and can be used for both [[Uni
         "bg": "#ffebe6"
       },
       {
-        "content": "<font style=\"color: rgb(255,0,0);\">𝑀𝑆<sub>𝐸𝑅𝑅</sub> = 𝑆𝑆<sub>𝐸𝑅𝑅</sub> / 𝑑𝑓<sub>𝐸𝑅𝑅</sub></font>\n\n[[Method of Least Mean Squared／Squares Error／Estimation／Estimator (LMS／LSE／MMSE) - Sum of Square Errors／Residuals - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate - Root Mean Square Deviation／Error (RMSD／E - MSE)|Mean Square Error (MSE)]]\n[[Method of Least Mean Squared／Squares Error／Estimation／Estimator (LMS／LSE／MMSE) - Sum of Square Errors／Residuals - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate - Root Mean Square Deviation／Error (RMSD／E - MSE)|Regression Variance]]",
+        "content": "<font style=\"color: rgb(255,0,0);\">𝑀𝑆<sub>𝐸𝑅𝑅</sub> = 𝑆𝑆<sub>𝐸𝑅𝑅</sub> / 𝑑𝑓<sub>𝐸𝑅𝑅</sub></font>\n\n[[Sum／Method of Least Root Mean Squared／Square／Squares Deviation／Error／Errors／Estimation／Estimator／Residuals (LMS／LSE／MMSE／RMSD／RMSE／MSE) - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate|Mean Square Error (MSE)]]\n[[Sum／Method of Least Root Mean Squared／Square／Squares Deviation／Error／Errors／Estimation／Estimator／Residuals (LMS／LSE／MMSE／RMSD／RMSE／MSE) - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate|Regression Variance]]",
         "bg": "#ffebe6"
       },
       {

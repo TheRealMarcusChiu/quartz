@@ -1,13 +1,13 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: /var/log
+  pageTitle: Marcus Chiu's /var/log
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: therealmarcuschiu.github.io/quartz
+  baseUrl: therealmarcuschiu.github.io/var-log
   ignorePatterns:
     - private
     - templates
@@ -214,6 +214,8 @@ plugins:
       position: beforeBody
       priority: 5
       condition: not-index
+    options:
+      showCurrentPage: false
   - source: github:quartz-community/comments
     enabled: false
     options:

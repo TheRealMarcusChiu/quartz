@@ -1,21 +1,20 @@
 ---
-title: "Extra-Curricular"
-created: 2021-09-13T04:45:56.131-05:00
-modified: 2021-09-13T04:45:56.131-05:00
-parent: "[[／var／log]]"
+title: "／var／log"
+created: 2019-03-14T23:45:31.550-05:00
+modified: 2026-06-03T09:44:43.919-05:00
 children:
-  - "[[Enter Auditory]]"
-  - "[[Enter Entertainment]]"
-  - "[[Enter Gustatory]]"
-  - "[[Enter Hygiene]]"
-  - "[[Enter Olfactory]]"
-  - "[[Enter Symbiosis]]"
-  - "[[Enter Textual]]"
-  - "[[Enter Visual]]"
+  - "[[Curricular]]"
+  - "[[Extra-Curricular]]"
+  - "[[private]]"
 ---
-as they say, traveling is broadening, so are other activities: reading, music, work of different environments, etc. however, guard well your spare moments
+"𝐵𝑢𝑡 𝑏𝑒𝑦𝑜𝑛𝑑 𝑡ℎ𝑒𝑠𝑒, 𝑚𝑦 𝑠𝑜𝑛, 𝑏𝑒 𝑤𝑎𝑟𝑛𝑒𝑑: 𝑇ℎ𝑒𝑟𝑒 𝑖𝑠 𝑛𝑜 𝑒𝑛𝑑 𝑡𝑜 𝑡ℎ𝑒 𝑚𝑎𝑘𝑖𝑛𝑔 𝑜𝑓 𝑚𝑎𝑛𝑦 𝑏𝑜𝑜𝑘𝑠, 𝑎𝑛𝑑 𝑚𝑢𝑐ℎ 𝑠𝑡𝑢𝑑𝑦 𝑤𝑒𝑎𝑟𝑖𝑒𝑠 𝑡ℎ𝑒 𝑏𝑜𝑑𝑦"
+
+érgon ("work") is a deed (action) that carries out (completes) an inner desire (intension, purpose)
+you don't get commended for your deed but for your inner intention
+# Recently Updated
 ```dataview
 LIST
 FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
+SORT modified DESC
+LIMIT 15
 ```

@@ -18,7 +18,7 @@ where:
 # Estimating 𝜃<sub>0</sub> and 𝜃<sub>1</sub>([[Ordinary Least Squares (OLS) Regression|Ordinary Least Squares Method]])
 
 > [!expand]- Click here to expand...
-> given training/sample data 𝐷 = {(𝑥<sub>1</sub>,𝑦<sub>1</sub>), ..., (𝑥<sub>𝑛</sub>,𝑦<sub>𝑛</sub>)} let us estimate the (intercept 𝜃<sub>0</sub>) and (slope 𝜃<sub>1</sub>) by the [[Method of Least Mean Squared／Squares Error／Estimation／Estimator (LMS／LSE／MMSE) - Sum of Square Errors／Residuals - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate - Root Mean Square Deviation／Error (RMSD／E - MSE)|method of least squares]]:
+> given training/sample data 𝐷 = {(𝑥<sub>1</sub>,𝑦<sub>1</sub>), ..., (𝑥<sub>𝑛</sub>,𝑦<sub>𝑛</sub>)} let us estimate the (intercept 𝜃<sub>0</sub>) and (slope 𝜃<sub>1</sub>) by the [[Sum／Method of Least Root Mean Squared／Square／Squares Deviation／Error／Errors／Estimation／Estimator／Residuals (LMS／LSE／MMSE／RMSD／RMSE／MSE) - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate|method of least squares]]:
 >
 > The Sum of Square Error (𝑆𝑆<sub>𝐸𝑅𝑅</sub>) of 𝑓(𝑥) given 𝐷 is defined below:
 > - 𝑆𝑆<sub>𝐸𝑅𝑅</sub> = 𝛴<sub>1≤𝑖≤𝑛</sub>\[𝑦<sub>𝑖</sub> - 𝑦̂<sub>𝑖</sub>\]<sup>2</sup>
@@ -202,7 +202,7 @@ sections:
 > [!expand]- Click here to expand...
 > see also: [Ben Lambert's Video Lecture](https://www.youtube.com/watch?v=H8tAmuk1lDc&list=PLwJRxp3blEvZyQBTTOMFRP_TDaSdly3gU&index=80)
 >
-> with the computed <em>degrees of freedom</em>, we can now estimate the [[Method of Least Mean Squared／Squares Error／Estimation／Estimator (LMS／LSE／MMSE) - Sum of Square Errors／Residuals - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate - Root Mean Square Deviation／Error (RMSD／E - MSE)|regression variance]] 𝑌 given 𝑋:
+> with the computed <em>degrees of freedom</em>, we can now estimate the [[Sum／Method of Least Root Mean Squared／Square／Squares Deviation／Error／Errors／Estimation／Estimator／Residuals (LMS／LSE／MMSE／RMSD／RMSE／MSE) - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate|regression variance]] 𝑌 given 𝑋:
 > - 𝜎̂<sup>2</sup>= estimated regression variance
 > - 𝜎̂<sup>2</sup> = 𝐄\[(𝑦<sub>𝑖</sub> - 𝑦̂<sub>𝑖</sub>)<sup>2</sup>\]
 > - 𝜎̂<sup>2</sup> = <font style="color: rgb(128,0,0);">𝛴<sub>1≤𝑖≤𝑛</sub>\[𝑦<sub>𝑖</sub> - 𝑦̂<sub>𝑖</sub>\]<sup>2</sup></font>/ <font style="color: rgb(0,128,0);">(𝑛 - 2)</font>

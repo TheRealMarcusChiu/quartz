@@ -27,7 +27,7 @@ where:
 # Estimating {𝜃<sub>0</sub>, 𝜃<sub>1</sub>, ..., 𝜃<sub>𝑘</sub>} ([[Ordinary Least Squares (OLS) Regression|Ordinary Least Squares Method]])
 
 > [!expand]- Click here to expand...
-> given training/sample data 𝐷 = {(𝑥<sub>11</sub>, ..., 𝑥<sub>1𝑘</sub>, 𝑦<sub>1</sub>), ..., (𝑥<sub>𝑛1</sub>, ..., 𝑥<sub>𝑛𝑘</sub>, 𝑦<sub>𝑛</sub>)} let us estimate the parameters/regression-slopes 𝜽 = {𝜃<sub>0</sub>, 𝜃<sub>1</sub>, ..., 𝜃<sub>𝑘</sub>} by [[Method of Least Mean Squared／Squares Error／Estimation／Estimator (LMS／LSE／MMSE) - Sum of Square Errors／Residuals - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate - Root Mean Square Deviation／Error (RMSD／E - MSE)|method of least squares]]
+> given training/sample data 𝐷 = {(𝑥<sub>11</sub>, ..., 𝑥<sub>1𝑘</sub>, 𝑦<sub>1</sub>), ..., (𝑥<sub>𝑛1</sub>, ..., 𝑥<sub>𝑛𝑘</sub>, 𝑦<sub>𝑛</sub>)} let us estimate the parameters/regression-slopes 𝜽 = {𝜃<sub>0</sub>, 𝜃<sub>1</sub>, ..., 𝜃<sub>𝑘</sub>} by [[Sum／Method of Least Root Mean Squared／Square／Squares Deviation／Error／Errors／Estimation／Estimator／Residuals (LMS／LSE／MMSE／RMSD／RMSE／MSE) - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate|method of least squares]]
 >
 > first, we define this in matrix form
 >

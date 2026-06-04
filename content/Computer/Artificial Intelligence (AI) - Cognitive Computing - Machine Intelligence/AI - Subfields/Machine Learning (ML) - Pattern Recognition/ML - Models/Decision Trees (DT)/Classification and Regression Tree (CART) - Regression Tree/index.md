@@ -22,14 +22,14 @@ this involves REPEATING the following processes:
 1. selecting an input variable among all input variables
 2. selecting a split/cut point on that variable
 
-Both are selected by a [[Greedy／Local-Search Algorithms|greedy algorithm]] that minimizes the [[Objective Function／Criterion - Cost／Loss／Error Function - Expected Cost／Loss／Error|cost function]] (e.g. [[Method of Least Mean Squared／Squares Error／Estimation／Estimator (LMS／LSE／MMSE) - Sum of Square Errors／Residuals - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate - Root Mean Square Deviation／Error (RMSD／E - MSE)|sum of squared residuals]]). It is repeated until a predefined stopping criterion is met (e.g. such a minimum number of training instances assigned to each leaf node of the tree)
+Both are selected by a [[Greedy／Local-Search Algorithms|greedy algorithm]] that minimizes the [[Objective Function／Criterion - Cost／Loss／Error Function - Expected Cost／Loss／Error|cost function]] (e.g. [[Sum／Method of Least Root Mean Squared／Square／Squares Deviation／Error／Errors／Estimation／Estimator／Residuals (LMS／LSE／MMSE／RMSD／RMSE／MSE) - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate|sum of squared residuals]]). It is repeated until a predefined stopping criterion is met (e.g. such a minimum number of training instances assigned to each leaf node of the tree)
 # CART - Model Tree Pruning
 
 cost complexity pruning (similar to [[Adjusted R²／R-Square (Adjusted Coefficient of Determination)|Adjusted R-Squared]]):
 - 𝑇𝑟𝑒𝑒 𝑆𝑐𝑜𝑟𝑒 = 𝑆𝑆𝑅 + 𝛼·𝑇
 
 where:
-- 𝑆𝑆𝑅 - is the [[Method of Least Mean Squared／Squares Error／Estimation／Estimator (LMS／LSE／MMSE) - Sum of Square Errors／Residuals - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate - Root Mean Square Deviation／Error (RMSD／E - MSE)|sum of squared residuals]]
+- 𝑆𝑆𝑅 - is the [[Sum／Method of Least Root Mean Squared／Square／Squares Deviation／Error／Errors／Estimation／Estimator／Residuals (LMS／LSE／MMSE／RMSD／RMSE／MSE) - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate|sum of squared residuals]]
 - 𝛼 - is a [[ML - Model Parameters & Hyperparameters|hyperparameter]] (tuned by [[Cross-Validation - K-Fold Cross-Validation|cross-validation]])
 - 𝑇 - is the total number of leaves/terminal-nodes
 

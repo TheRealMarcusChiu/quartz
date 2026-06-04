@@ -26,7 +26,7 @@ If 𝑋<sup>T</sup>𝑋 = 𝐷, then:
 The downside to reducing the variance is that the estimator is biased:
 - $𝐄[\hat{𝛽}_{Rj}] = 𝛽_j \frac{d_j}{d_j + 𝜆_j}$
 
-The [[Method of Least Mean Squared／Squares Error／Estimation／Estimator (LMS／LSE／MMSE) - Sum of Square Errors／Residuals - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate - Root Mean Square Deviation／Error (RMSD／E - MSE)|mean square error (MSE)]] is given by:
+The [[Sum／Method of Least Root Mean Squared／Square／Squares Deviation／Error／Errors／Estimation／Estimator／Residuals (LMS／LSE／MMSE／RMSD／RMSE／MSE) - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate|mean square error (MSE)]] is given by:
 - $𝛽_j^2 \frac{𝜆_j^2}{(d_j + 𝜆_j)^2} + 𝜎^2 \frac{d_j^2}{(d_j + 𝜆_j)^2}$
 
 The aim would be to set 𝜆<sub>𝑗</sub> so this is minimized.

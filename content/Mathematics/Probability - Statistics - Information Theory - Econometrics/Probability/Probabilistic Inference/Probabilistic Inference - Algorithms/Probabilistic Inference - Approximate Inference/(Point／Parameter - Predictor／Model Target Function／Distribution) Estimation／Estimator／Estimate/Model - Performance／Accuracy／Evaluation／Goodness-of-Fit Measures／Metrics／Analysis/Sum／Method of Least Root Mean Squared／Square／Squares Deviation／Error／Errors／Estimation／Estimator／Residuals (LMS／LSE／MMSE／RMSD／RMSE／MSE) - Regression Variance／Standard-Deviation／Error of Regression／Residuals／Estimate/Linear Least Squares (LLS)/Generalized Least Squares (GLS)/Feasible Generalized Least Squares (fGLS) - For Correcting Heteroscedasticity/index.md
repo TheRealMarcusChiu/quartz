@@ -39,7 +39,7 @@ since <font style="color: rgb(128,128,128);">𝑒̂<sup>2</sup> = 𝑒𝑥𝑝
 - 𝑙𝑜𝑔(𝑒̂<sup>2</sup>) = 𝛿<sub>0</sub> + 𝛿<sub>1</sub>𝑥<sub>1</sub> + ... + 𝛿<sub>𝑘</sub>𝑥<sub>𝑘</sub>
 
 To estimate the coefficients {𝛿<sub>0</sub>, ..., 𝛿<sub>𝑘</sub>} of the exponential model we do the following steps:
-1. get a set of [[Method of Least Mean Squared／Squares Error／Estimation／Estimator (LMS／LSE／MMSE) - Sum of Square Errors／Residuals - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate - Root Mean Square Deviation／Error (RMSD／E - MSE)|residuals/errors]] <font style="color: rgb(255,0,0);">𝑒̂</font> by running the given regression model over the training examples:
+1. get a set of [[Sum／Method of Least Root Mean Squared／Square／Squares Deviation／Error／Errors／Estimation／Estimator／Residuals (LMS／LSE／MMSE／RMSD／RMSE／MSE) - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate|residuals/errors]] <font style="color: rgb(255,0,0);">𝑒̂</font> by running the given regression model over the training examples:
 	1. 𝑦 = 𝜃<sub>0</sub>ˆ + 𝜃<sub>1</sub>ˆ𝑥<sub>1</sub> + ... + 𝜃<sub>𝑘</sub>ˆ𝑥<sub>𝑘</sub> + <font style="color: rgb(255,0,0);">𝑒̂</font>
 2. with the residuals and its corresponding training examples, we run a regression on the log squared residuals 𝑙𝑜𝑔(𝑒̂<sup>2</sup>) over the dependents variables {𝑥<sub>1</sub>, ..., 𝑥<sub>𝑘</sub>}
 	1. 𝑙𝑜𝑔(𝑒̂<sup>2</sup>) = 𝛿<sub>0</sub> + 𝛿<sub>1</sub>𝑥<sub>1</sub> + ... + 𝛿<sub>𝑘</sub>𝑥<sub>𝑘</sub>

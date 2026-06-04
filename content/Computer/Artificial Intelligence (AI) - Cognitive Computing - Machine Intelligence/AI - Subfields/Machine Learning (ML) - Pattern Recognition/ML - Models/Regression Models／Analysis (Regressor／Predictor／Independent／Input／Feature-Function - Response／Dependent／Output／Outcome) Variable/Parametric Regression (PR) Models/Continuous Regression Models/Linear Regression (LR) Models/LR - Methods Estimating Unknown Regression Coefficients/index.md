@@ -33,14 +33,14 @@ children:
         "content": "[[LR - Methods Estimating Unknown Coefficients - Method of Least Squares (Gradient Descent)|Method of Least Squares]]\n[[LR - Methods Estimating Unknown Coefficients - Method of Least Squares (Gradient Descent)|(Gradient Descent)]]",
         "bg": "#F4F5F7"
       },
-      "- idea: minimizing [[Method of Least Mean Squared／Squares Error／Estimation／Estimator (LMS／LSE／MMSE) - Sum of Square Errors／Residuals - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate - Root Mean Square Deviation／Error (RMSD／E - MSE)|square error]] via GRADIENT DESCENT\n- need to choose learning rate 𝛼\n- need many iterations\n- works well when the number of training examples 𝑋 is large"
+      "- idea: minimizing [[Sum／Method of Least Root Mean Squared／Square／Squares Deviation／Error／Errors／Estimation／Estimator／Residuals (LMS／LSE／MMSE／RMSD／RMSE／MSE) - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate|square error]] via GRADIENT DESCENT\n- need to choose learning rate 𝛼\n- need many iterations\n- works well when the number of training examples 𝑋 is large"
     ],
     [
       {
         "content": "[[LR - Methods Estimating Unknown Coefficients - Method of Least Squares (Projection Matrix - Normal Equation - Pseudoinverse)|Method of Least Squares]]\n[[LR - Methods Estimating Unknown Coefficients - Method of Least Squares (Projection Matrix - Normal Equation - Pseudoinverse)|(Projection Matrix - Normal Equation)]]",
         "bg": "#F4F5F7"
       },
-      "- idea: minimizing [[Method of Least Mean Squared／Squares Error／Estimation／Estimator (LMS／LSE／MMSE) - Sum of Square Errors／Residuals - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate - Root Mean Square Deviation／Error (RMSD／E - MSE)|square error]] via NORMAL EQUATIONS\n- no need to choose learning rate 𝛼\n- do not need to iterate\n- need to compute (𝑋<sup>𝑇</sup>𝑋)<sup>-1</sup>𝑋<sup>𝑇</sup> or 𝑉𝐷<sup>-1</sup>𝑈<sup>𝑇</sup>\n- slow if the number of training examples 𝑋 is large because computing the inverse of a matrix is 𝑂(𝑛<sup>3</sup>)"
+      "- idea: minimizing [[Sum／Method of Least Root Mean Squared／Square／Squares Deviation／Error／Errors／Estimation／Estimator／Residuals (LMS／LSE／MMSE／RMSD／RMSE／MSE) - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate|square error]] via NORMAL EQUATIONS\n- no need to choose learning rate 𝛼\n- do not need to iterate\n- need to compute (𝑋<sup>𝑇</sup>𝑋)<sup>-1</sup>𝑋<sup>𝑇</sup> or 𝑉𝐷<sup>-1</sup>𝑈<sup>𝑇</sup>\n- slow if the number of training examples 𝑋 is large because computing the inverse of a matrix is 𝑂(𝑛<sup>3</sup>)"
     ],
     [
       {

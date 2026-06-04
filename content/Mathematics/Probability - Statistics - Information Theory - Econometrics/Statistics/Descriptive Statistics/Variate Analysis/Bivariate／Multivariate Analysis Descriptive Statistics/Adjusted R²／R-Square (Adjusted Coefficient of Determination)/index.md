@@ -22,7 +22,7 @@ adjusted 𝑅<sup>2</sup> formula:
 - 𝑅<sup>2</sup><sub>𝑎𝑑𝑗</sub> = 1<sub></sub>- \[(𝑆𝑆<sub>𝐸𝑅𝑅</sub> / 𝑆𝑆<sub>𝑇𝑂𝑇</sub>) · (𝑑𝑓<sub>𝑇𝑂𝑇</sub> / 𝑑𝑓<sub>𝐸𝑅𝑅</sub>)\]
 
 where:
-- 𝑆𝑆<sub>𝐸𝑅𝑅</sub>= [[Method of Least Mean Squared／Squares Error／Estimation／Estimator (LMS／LSE／MMSE) - Sum of Square Errors／Residuals - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate - Root Mean Square Deviation／Error (RMSD／E - MSE)|Sum of Square Error]]
-- 𝑆𝑆<sub>𝐸𝑅𝑅</sub>/𝑑𝑓<sub>𝐸𝑅𝑅</sub>= [[Method of Least Mean Squared／Squares Error／Estimation／Estimator (LMS／LSE／MMSE) - Sum of Square Errors／Residuals - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate - Root Mean Square Deviation／Error (RMSD／E - MSE)|Mean Square Error (MSE) = Regression Variance]]
+- 𝑆𝑆<sub>𝐸𝑅𝑅</sub>= [[Sum／Method of Least Root Mean Squared／Square／Squares Deviation／Error／Errors／Estimation／Estimator／Residuals (LMS／LSE／MMSE／RMSD／RMSE／MSE) - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate|Sum of Square Error]]
+- 𝑆𝑆<sub>𝐸𝑅𝑅</sub>/𝑑𝑓<sub>𝐸𝑅𝑅</sub>= [[Sum／Method of Least Root Mean Squared／Square／Squares Deviation／Error／Errors／Estimation／Estimator／Residuals (LMS／LSE／MMSE／RMSD／RMSE／MSE) - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate|Mean Square Error (MSE) = Regression Variance]]
 
 imagine adding a non-significant predictor variable 𝑋<sub>𝑖</sub>. The number of estimated slopes 𝑘 increments by 1. However, if this variable is not able to explain any variation of the response 𝑌 (𝑖.𝑒. 𝑆𝑆<sub>𝑇𝑂𝑇</sub>) then the sum of squares: 𝑆𝑆<sub>𝐸𝑅𝑅</sub> and 𝑆𝑆<sub>𝑅𝐸𝐺</sub> will remain the same. Then (𝑆𝑆<sub>𝐸𝑅𝑅</sub>/𝑑𝑓<sub>𝐸𝑅𝑅</sub>) will increase and 𝑅<sup>2</sup><sub>𝑎𝑑𝑗</sub>will decrease

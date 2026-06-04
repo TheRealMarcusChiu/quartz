@@ -7,7 +7,7 @@ children: []
 ---
 solving [[Ordinary Least Squares (OLS) Regression|Linear Regression]] with [[Maximum Likelihood Estimation (MLE)]]
 
-Linear Regression is the mapping from 𝒙 to 𝑦̂, chosen by minimizing the [[Method of Least Mean Squared／Squares Error／Estimation／Estimator (LMS／LSE／MMSE) - Sum of Square Errors／Residuals - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate - Root Mean Square Deviation／Error (RMSD／E - MSE)|Mean Square Error (MSE)]] in other words [[Method of Least Mean Squared／Squares Error／Estimation／Estimator (LMS／LSE／MMSE) - Sum of Square Errors／Residuals - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate - Root Mean Square Deviation／Error (RMSD／E - MSE)|Least Square Errors (LSE)]]:
+Linear Regression is the mapping from 𝒙 to 𝑦̂, chosen by minimizing the [[Sum／Method of Least Root Mean Squared／Square／Squares Deviation／Error／Errors／Estimation／Estimator／Residuals (LMS／LSE／MMSE／RMSD／RMSE／MSE) - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate|Mean Square Error (MSE)]] in other words [[Sum／Method of Least Root Mean Squared／Square／Squares Deviation／Error／Errors／Estimation／Estimator／Residuals (LMS／LSE／MMSE／RMSD／RMSE／MSE) - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate|Least Square Errors (LSE)]]:
 - <strong>𝜽</strong>ˆ<sub>𝐿𝑆𝐸</sub> = 𝑎𝑟𝑔𝑚𝑖𝑛<sub><strong>𝜽</strong></sub> (1/𝑛) 𝛴<sub>1≤𝑖≤𝑛</sub>\[ (𝑦<sup>(𝑖)</sup>-𝑦̂<sup>(𝑖)</sup>)² \]
 
 let's see how <strong>𝜽</strong>ˆ<sub>𝑀𝐿𝐸</sub> is equivalent to <strong>𝜽</strong>ˆ<sub>𝐿𝑆𝐸</sub>
